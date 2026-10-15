@@ -18,6 +18,14 @@ Boundary: this repository only holds public-facing governance documents; interna
 | [Release Policy](docs/en/release-policy.md) | Semantic versioning and release-note requirements. |
 | [Review Policy](docs/en/review-policy.md) | What reviewers check and what contributors should do. |
 
+## Repository Defaults
+
+| Item | Default |
+| --- | --- |
+| Code license | MIT (see the LICENSE in project-template) |
+| Content license | CC-BY-4.0 for docs/tutorials; CC0 for curated lists |
+| CI/CD | Not required. Practice, competition, and course projects ship without CI; content repositories (e.g. awesome-ai) may run non-blocking scheduled maintenance such as weekly link checks. |
+
 ## Sensitive Materials
 
 This public repository must not contain real recruitment questions, interview records, scoring rubrics, candidate evaluations, credentials, tokens, recovery codes, private datasets, unreleased checkpoints, or internal incident records.

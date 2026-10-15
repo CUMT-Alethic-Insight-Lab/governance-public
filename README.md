@@ -22,6 +22,14 @@ Boundary: this repository only holds public-facing governance documents; interna
 | [Release Policy](docs/en/release-policy.md) / [发布规范](docs/zh-CN/release-policy.md) | Semantic versioning and release-note requirements. 语义化版本与发布说明要求。 |
 | [Review Policy](docs/en/review-policy.md) / [Review 规则](docs/zh-CN/review-policy.md) | What reviewers check and what contributors should do. Review 者的检查项与贡献者的配合事项。 |
 
+## Repository Defaults · 仓库默认约定
+
+| Item 事项 | Default 默认 |
+| --- | --- |
+| Code license 代码许可 | MIT（见 project-template 的 LICENSE） |
+| Content license 内容许可 | 文档/教程 CC-BY-4.0；资源清单 CC0 |
+| CI/CD | 不要求。练习、竞赛与大创类项目不预置 CI；内容型仓库（如 awesome-ai）可配非阻断的定期维护自动化（如每周死链巡检） |
+
 ## Sensitive Materials · 敏感材料
 
 This public repository must not contain real recruitment questions, interview records, scoring rubrics, candidate evaluations, credentials, tokens, recovery codes, private datasets, unreleased checkpoints, or internal incident records.
